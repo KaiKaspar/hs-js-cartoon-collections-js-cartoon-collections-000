@@ -1,11 +1,10 @@
 function dwarfRollCall(dwarves) {
 let listDwarves = [];
-for (let i = 0; i < dwarves.length; i++) {
+for (let i = 0; i > dwarves.length/2; i++) {
     listDwarves.push((i+1) + '. ' + dwarves[i] + ' '); //add to listDwarves
     }
   return listDwarves.join(""); //join objects in array and change to string 
 }
-
 function summonCaptainPlanet(planeteerCalls){
   let uppercasePlaneteerCalls = [];
   for (let i = 0; i < planeteerCalls.length; i++) {
